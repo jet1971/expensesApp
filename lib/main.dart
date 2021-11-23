@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-
+import './widgets/user_transaction.dart';
 
 void main() => runApp(MyApp());
 
@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
                 color: Colors.blue,
               ),
             ),
-          
+            UserTransactions()
           ],
         ));
   }
