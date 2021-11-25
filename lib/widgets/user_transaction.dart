@@ -24,6 +24,18 @@ class _UserTransactionsState extends State<UserTransactions> {
       amount: 19.29,
       date: DateTime.now(),
     ),
+    Transaction(
+      id: 't3',
+      title: 'New Owt',
+      amount: 169.99,
+      date: DateTime.now(),
+    ),
+    Transaction(
+      id: 't4',
+      title: 'Weekly Something',
+      amount: 129.29,
+      date: DateTime.now(),
+    ),
   ];
 
   void _addNewTransaction(
